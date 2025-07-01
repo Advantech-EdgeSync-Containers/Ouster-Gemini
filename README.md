@@ -2,7 +2,7 @@
 
 Ouster Gemini is a lidar detection platform that combines Ouster 3D digital lidar sensors and AI-powered perception software. The system delivers precise, long-range detection, classification and tracking of people and vehicles and provides advanced situational awareness to enhance physical security, safety and operational efficiencies of critical infrastructure, and urban and business spaces. Built for extreme environments, Ouster Gemini helps to provide reliable detection in adverse weather or low light, while significantly reducing nuisance alarms indoors and outdoors.
 
-**Ouster-Gemini-Detect** is a containerized AI LiDAR perception solution released by **Ouster, Inc.**. It is optimized for deployment on Advantech GPU-accelerated platforms such as **TREK-50N** and **TREK-60N**, and leverages Ouster's Gemini software for real-time object detection and scene understanding.
+**Ouster-Gemini** is a containerized AI LiDAR perception solution released by **Ouster, Inc.**. It is optimized for deployment on Advantech GPU-accelerated platforms such as **TREK-50N** and **TREK-60N**, and leverages Ouster's Gemini software for real-time object detection and scene understanding.
 
 Ouster Gemini supports multi-sensor meshing into a single scene, low-latency detections, and can be integrated via REST APIs, WebSockets, or MQTTs streams. 
 
@@ -63,9 +63,9 @@ It processes raw lidar pointcloud data from Ouster OS sensors and outputs struct
 - GPU recommended for Deep Learning workloads
 
 
-## Installing Ouster Gemini Detect
+## Installing Ouster Gemini
 
-There are two ways to install **Ouster Gemini Detect** for the first time:
+There are two ways to install **Ouster Gemini** for the first time:
 
 1. **Using `get-detect.sh` script** – *Internet access required*
 2. **Using a compressed archive (.tar.gz)** – *Internet access NOT required*. 
